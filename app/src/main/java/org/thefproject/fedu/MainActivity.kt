@@ -15,6 +15,12 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        
+         val loginin = findViewById<View>(R.id.loginin)
+        
+        loginin.setOnClickListener {
+            val g = Intent(this, profile::class.java)
+            startActivity(g)
+      }
     }
 }
