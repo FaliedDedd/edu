@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8D9C69"
-    tools:context=".profile">
+    tools:context=".reshebniklist">
 
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="Предметы"
         android:textColor="#A8B89B"
-        app:backgroundTint="#85945F"
+        app:backgroundTint="#708048"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.549"
@@ -43,52 +43,87 @@
         android:layout_height="wrap_content"
         android:text="ГДЗ"
         android:textColor="#A8B89B"
-        app:backgroundTint="#708048"
+        app:backgroundTint="#85945F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:text="Решебники за 10 класс"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="154dp"
+        android:layout_height="27dp"
+        android:text="Пока не доступно"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
 
     <Button
-        android:id="@+id/math"
-        android:layout_width="335dp"
-        android:layout_height="58dp"
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/agbalumo"
+        android:text="Физика"
+        android:textColor="#A5BF87"
+        android:textSize="16sp"
+        app:backgroundTint="#808E60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="216dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/agbalumo"
         android:text="Математика"
-        android:textColor="#A7C790"
-        app:backgroundTint="#7C9249"
+        android:textColor="#A5BF87"
+        android:textSize="16sp"
+        app:backgroundTint="#808E60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.356" />
 
     <Button
-        android:id="@+id/belaz"
-        android:layout_width="335dp"
-        android:layout_height="58dp"
-        android:text="Белорусский язык"
-        android:textColor="#A7C790"
-        app:backgroundTint="#7C9249"
+        android:id="@+id/button3"
+        android:layout_width="216dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/agbalumo"
+        android:text="..."
+        android:textColor="#A5BF87"
+        android:textSize="16sp"
+        app:backgroundTint="#808E60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.209" />
-
-    <Button
-        android:id="@+id/belaz2"
-        android:layout_width="335dp"
-        android:layout_height="58dp"
-        android:text="Русский язык"
-        android:textColor="#A7C790"
-        app:backgroundTint="#7C9249"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331" />
-
+        app:layout_constraintVertical_bias="0.531" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
