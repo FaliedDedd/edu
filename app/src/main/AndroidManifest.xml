@@ -6,12 +6,27 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon_maths"
         android:label="EduCA"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon_maths"
         android:supportsRtl="true"
         android:theme="@style/Theme.Edu"
         tools:targetApi="31">
+        <activity
+            android:name=".reshebniklist"
+            android:exported="false" />
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".reshebnik10th"
+            android:exported="false" />
+        <activity
+            android:name=".books10th"
+            android:exported="false" />
         <activity
             android:name=".predmets"
             android:exported="false" />
@@ -27,6 +42,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
