@@ -2,7 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
 }
-
+// Не рекомендую как-либо изменять файл gradle 
+// Copyright The F Project 2024
 android {
     namespace = "org.thefproject.fedu"
     compileSdk = 34
@@ -11,8 +12,8 @@ android {
         applicationId = "org.thefproject.fedu"
         minSdk = 16
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 10
+        versionName = "0.4a"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,10 +34,15 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
-dependencies {
 
+dependencies {
+    implementation ("com.airbnb.android:lottie:6.5.2")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
