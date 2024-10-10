@@ -4,16 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".profile">
+    android:layout_height="match_parent"
+    tools:context=".home">
 
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="391dp"
+        android:layout_height="333dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="drivecar_anim.json"
+        app:lottie_loop="true" />
 
     <Button
         android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Профиль"
+        android:text="Главная"
         android:textColor="@color/buttontextcolor"
         app:backgroundTint="#5089B8"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,6 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
 
     <Button
         android:id="@+id/prdmet"
@@ -32,7 +47,7 @@
         app:backgroundTint="@color/buttons"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
@@ -43,12 +58,13 @@
         android:layout_height="48dp"
         android:text="Настройки"
         android:textColor="@color/buttontextcolor"
+        android:visibility="invisible"
         app:backgroundTint="@color/buttons"
         app:icon="@android:drawable/ic_menu_manage"
         app:iconPadding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
@@ -67,12 +83,29 @@
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.093" />
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/schoolproject"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
+        android:text="Посмертие"
+        android:textColor="@color/buttontextcolor"
+        app:backgroundTint="@color/buttons"
+        app:icon="@android:drawable/ic_popup_disk_full"
+        app:iconPadding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/about2"
-        android:layout_width="173dp"
-        android:layout_height="48dp"
+        android:layout_width="297dp"
+        android:layout_height="66dp"
         android:text="Check update"
         android:textColor="#A8B89B"
         android:visibility="invisible"
@@ -81,10 +114,10 @@
         app:iconPadding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintVertical_bias="0.876" />
 
     <Button
         android:id="@+id/reshebnik"
@@ -99,6 +132,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="176dp"
+        android:layout_height="42dp"
+        android:text="Здесь пока ничего нет..."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

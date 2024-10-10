@@ -5,31 +5,81 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/LottiAnim"
+        android:layout_width="297dp"
+        android:layout_height="242dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.001"
+        app:lottie_fileName="verybook_anim.json" />
+
+    <Button
+        android:id="@+id/loginin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttons"
+        android:text="Войти"
+        android:textColor="#49454F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="201dp"
-        android:layout_height="62dp"
-        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/textView9"
+        android:layout_width="239dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Добро пожаловать"
-        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textSize="20sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.351" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="215dp"
+        android:layout_height="66dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="EduCA"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="293dp"
+        android:layout_height="65dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="v0.5.1 DEV BUILD 20-09-2024 1:05pm"
+        android:textSize="14sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
