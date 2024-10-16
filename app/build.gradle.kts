@@ -11,8 +11,8 @@ android {
         applicationId = "org.thefproject.fedu"
         minSdk = 22
         targetSdk = 33
-        versionCode = 160
-        versionName = "0.6"
+        versionCode = 307
+        versionName = "0.8_dev"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -40,8 +40,6 @@ android {
     buildFeatures {
         viewBinding = true
       buildConfig = true
-
-       // compose = true
     }
 }
 
@@ -51,6 +49,8 @@ dependencies {
 // implementation 'com.android.support:multidex:1.0.3'
     implementation("com.android.support:multidex:1.0.3")
     implementation ("com.airbnb.android:lottie:6.5.2")
+    implementation ("com.google.android.material:material:1.4.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
