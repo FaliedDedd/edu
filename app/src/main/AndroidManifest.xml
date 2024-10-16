@@ -2,16 +2,61 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/icon_maths"
+        android:icon="@drawable/_2024_10_16_205443"
         android:label="EduCA"
-        android:roundIcon="@drawable/icon_maths"
+        android:roundIcon="@drawable/_2024_10_16_205443"
         android:supportsRtl="true"
         android:theme="@style/Theme.Edu"
         tools:targetApi="31">
+        <activity
+            android:name=".books8th"
+            android:exported="false" />
+        <activity
+            android:name=".donate"
+            android:exported="false" />
+        <activity
+            android:name=".reshebnik20thenglishtype"
+            android:exported="false" />
+        <activity
+            android:name=".reshebnik8th"
+            android:exported="false" />
+        <activity
+            android:name=".reshebnik9th"
+            android:exported="false" />
+        <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".contacts"
+            android:exported="false" />
+        <activity
+            android:name=".class9reshbniknumbers"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".tabout"
+            android:exported="false" />
+        <activity
+            android:name=".book8th"
+            android:exported="false" />
+        <activity
+            android:name=".book9th"
+            android:exported="false" />
+        <activity
+            android:name=".pagenotfound"
+            android:exported="false" />
+        <activity
+            android:name=".bookslist"
+            android:exported="false" />
         <activity
             android:name=".reshebniklist"
             android:exported="false" />
