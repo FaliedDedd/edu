@@ -129,7 +129,7 @@
         android:id="@+id/buttoncherch2"
         android:layout_width="244dp"
         android:layout_height="57dp"
-        android:text="Искувсство"
+        android:text="Черчение"
         android:textColor="@color/buttontextcolor"
         app:backgroundTint="@color/buttons"
         app:layout_constraintBottom_toBottomOf="parent"

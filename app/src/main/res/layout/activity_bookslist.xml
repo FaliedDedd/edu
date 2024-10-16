@@ -23,7 +23,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
-
     <Button
         android:id="@+id/prdmet"
         android:layout_width="wrap_content"
@@ -33,9 +32,11 @@
         app:backgroundTint="#365A78"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
 
     <Button
         android:id="@+id/reshebnik"
@@ -53,11 +54,11 @@
 
     <Button
         android:id="@+id/class2"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="238dp"
+        android:layout_height="56dp"
         android:text="2 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,11 +67,11 @@
 
     <Button
         android:id="@+id/class1"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="247dp"
+        android:layout_height="53dp"
         android:text="1 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,11 +80,11 @@
 
     <Button
         android:id="@+id/class4"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="243dp"
+        android:layout_height="54dp"
         android:text="4 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,11 +93,11 @@
 
     <Button
         android:id="@+id/class5"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="244dp"
+        android:layout_height="48dp"
         android:text="5 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,11 +106,11 @@
 
     <Button
         android:id="@+id/class6"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="238dp"
+        android:layout_height="48dp"
         android:text="6 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,11 +119,11 @@
 
     <Button
         android:id="@+id/class7"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
         android:text="7 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -131,11 +132,11 @@
 
     <Button
         android:id="@+id/class8"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
-        android:text="8 класс"
+        android:layout_width="243dp"
+        android:layout_height="47dp"
+        android:text="8 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="@color/buttons"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,8 +145,8 @@
 
     <Button
         android:id="@+id/class9"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="255dp"
+        android:layout_height="51dp"
         android:text="9 класс"
         android:textColor="@color/buttontextcolor"
         app:backgroundTint="@color/buttons"
@@ -157,8 +158,8 @@
 
     <Button
         android:id="@+id/class10"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="244dp"
+        android:layout_height="55dp"
         android:text="10 класс"
         android:textColor="@color/buttontextcolor"
         app:backgroundTint="@color/buttons"
@@ -170,11 +171,11 @@
 
     <Button
         android:id="@+id/class11"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="247dp"
+        android:layout_height="49dp"
         android:text="11 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -183,11 +184,11 @@
 
     <Button
         android:id="@+id/class3"
-        android:layout_width="259dp"
-        android:layout_height="58dp"
+        android:layout_width="249dp"
+        android:layout_height="51dp"
         android:text="3 класс (н)"
         android:textColor="@color/buttontextcolor"
-        app:backgroundTint="#3F427299"
+        app:backgroundTint="#0A3E3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
